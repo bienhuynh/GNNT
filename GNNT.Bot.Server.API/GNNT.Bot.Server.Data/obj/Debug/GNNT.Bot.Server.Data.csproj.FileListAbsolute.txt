@@ -1,0 +1,16 @@
+E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Data.dll
+E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Data.pdb
+E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Model.dll
+E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Model.pdb
+E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.csprojResolveAssemblyReference.cache
+E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.csproj.CoreCompileInputs.cache
+E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.dll
+E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.pdb
+E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Data.dll
+E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Data.pdb
+E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Model.dll
+E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Model.pdb
+E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.csprojResolveAssemblyReference.cache
+E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.csproj.CoreCompileInputs.cache
+E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.dll
+E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.pdb

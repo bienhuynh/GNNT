@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Firebase.Auth</name>
+    </assembly>
+    <members>
+        <member name="T:Firebase.Auth.FirebaseAuthOptions">
+            <summary>
+            Configuration options for connecting and authenticating with the Firebase Auth REST API
+            </summary>
+        </member>
+        <member name="M:Firebase.Auth.FirebaseAuthOptions.#ctor(System.String)">
+            <summary>
+            </summary>
+            <param name="webApiKey">Your project's web API key</param>
+        </member>
+        <member name="P:Firebase.Auth.FirebaseAuthOptions.WebApiKey">
+            <summary>
+            Your project's API key, found in the project settings section
+            of the Firebase Console
+            </summary>
+        </member>
+        <member name="T:Firebase.Auth.FirebaseAuthService">
+            <summary>
+            Service for connecting and communicating with the Firebase Auth REST API
+            </summary>
+        </member>
+        <member name="M:Firebase.Auth.FirebaseAuthService.#ctor(Firebase.Auth.FirebaseAuthOptions)">
+            <param name="options">Options to configure the service to communicate with Firebase REST API.</param>
+        </member>
+        <member name="M:Firebase.Auth.FirebaseAuthService.SignUpNewUser(Firebase.Auth.Payloads.SignUpNewUserRequest)">
+            <summary>
+            Creates a new user in Firebase.
+            </summary>
+        </member>
+        <member name="M:Firebase.Auth.FirebaseAuthService.VerifyPassword(Firebase.Auth.Payloads.VerifyPasswordRequest)">
+            <summary>
+            Verifies the password for a given user. This is equivalent to signing the user in
+            with an email and password.
+            </summary>
+        </member>
+        <member name="M:Firebase.Auth.FirebaseAuthService.Dispose">
+            <summary>
+            Cleans up the web client after usage.
+            </summary>
+        </member>
+        <member name="M:Firebase.Auth.Helpers.EnumHelper.GetValueIfStringStartsWith``1(System.String)">
+            <summary>
+            The Firebase API isn't great at returning error types, in fact some look like this
+            "INVALID_PROVIDER_ID : Provider Id is not supported.". In order to strongly type
+            these errors, this method will look for an enum value where the error string starts
+            with that enum values EnumMember value.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Firebase.Auth.IFirebaseAuthService">
+            <summary>
+            Service interface for connecting and communicating with the Firebase Auth REST API
+            </summary>
+        </member>
+        <member name="M:Firebase.Auth.IFirebaseAuthService.SignUpNewUser(Firebase.Auth.Payloads.SignUpNewUserRequest)">
+            <summary>
+            Creates a new user in Firebase.
+            </summary>
+        </member>
+        <member name="M:Firebase.Auth.IFirebaseAuthService.VerifyPassword(Firebase.Auth.Payloads.VerifyPasswordRequest)">
+            <summary>
+            Verifies the password for a given user. This is equivalent to signing the user in
+            with an email and password.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.BaseRequest.ReturnSecureToken">
+            <summary>
+            Whether or not to return an ID and refresh token. Should always be true.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.BaseResponse.Kind">
+            <summary>
+            The request type, always "identitytoolkit#SignupNewUserResponse".
+            </summary>
+        </member>
+        <member name="T:Firebase.Auth.Payloads.SignUpNewUserRequest">
+            <summary>
+            Request object for signing up a new user with an email and password.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.SignUpNewUserRequest.Email">
+            <summary>
+            The email for the user to create.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.SignUpNewUserRequest.Password">
+            <summary>
+            The password for the user to create.
+            </summary>
+        </member>
+        <member name="T:Firebase.Auth.Payloads.SignUpNewUserResponse">
+            <summary>
+            Response object after signing up a new user with an email and password.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.SignUpNewUserResponse.IdToken">
+            <summary>
+            A Firebase Auth ID token for the newly created user.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.SignUpNewUserResponse.Email">
+            <summary>
+            The email for the newly created user.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.SignUpNewUserResponse.RefreshToken">
+            <summary>
+            A Firebase Auth refresh token for the newly created user.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.SignUpNewUserResponse.ExpiresIn">
+            <summary>
+            The number of seconds in which the ID token expires.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.SignUpNewUserResponse.LocalId">
+            <summary>
+            The uid of the newly created user.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.VerifyPasswordRequest.Email">
+            <summary>
+            The email the user is signing in with.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.VerifyPasswordRequest.Password">
+            <summary>
+            The password for the account.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.VerifyPasswordResponse.IdToken">
+            <summary>
+            A Firebase Auth ID token for the newly created user.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.VerifyPasswordResponse.Email">
+            <summary>
+            The email for the newly created user.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.VerifyPasswordResponse.RefreshToken">
+            <summary>
+            A Firebase Auth refresh token for the newly created user.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.VerifyPasswordResponse.ExpiresIn">
+            <summary>
+            The number of seconds in which the ID token expires.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.VerifyPasswordResponse.LocalId">
+            <summary>
+            The uid of the newly created user.
+            </summary>
+        </member>
+        <member name="P:Firebase.Auth.Payloads.VerifyPasswordResponse.Registered">
+            <summary>
+            Whether the email is for an existing account.
+            </summary>
+        </member>
+    </members>
+</doc>
