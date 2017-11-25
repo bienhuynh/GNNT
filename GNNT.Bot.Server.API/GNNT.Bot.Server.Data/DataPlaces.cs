@@ -333,7 +333,10 @@ namespace GNNT.Bot.Server.Data
                     {
                         askList = new List<Ask>
                         {
-                new Ask { Text = "Biết Công viên nước Thanh Lễ không ?" }
+                            new Ask { Text = "Biết Công viên nước Thanh Lễ không ?" },
+                            new Ask { Text = "Biết Công viên nước Thanh Lễ không " },
+                            new Ask { Text = "Biết Công viên nước Thanh Lễ không?" },
+                            new Ask { Text = "Biet cong vien nuoc Thanh Le khong ?" }
                             },
                         answerlist = new List<Answer>
                             {

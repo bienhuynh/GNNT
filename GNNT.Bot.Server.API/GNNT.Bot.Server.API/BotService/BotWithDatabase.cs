@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using GNNT.Bot.Server.API.Firebase;
+using GNNT.Bot.Server.API.Models;
+using Firebase.Database.Streaming;
+
 namespace GNNT.Bot.Server.API.BotService
 {
     public class BotWithDatabase
@@ -14,7 +17,12 @@ namespace GNNT.Bot.Server.API.BotService
         {
             URLRequest = requestURL;
         }
-
+        public MessageText ReadNewRecord()
+        {
+            db = new FirebaseDbService();
+            //IObservable<FirebaseEvent<MessageText>> data = db.Read();
+            return new MessageText();
+        }
         public void BotSendMessageText(Models.MessageText record)
         {
             db = new FirebaseDbService();
@@ -22,7 +30,7 @@ namespace GNNT.Bot.Server.API.BotService
             {
                 name = record.name,
                 photoUrl = record.photoUrl,
-                text = record.message
+                text = record.text
             });
             db.POSTWriteRecord(json, URLRequest);
         }

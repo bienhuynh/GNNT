@@ -14,3 +14,10 @@ E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Serve
 E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.csproj.CoreCompileInputs.cache
 E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.dll
 E:\Projects\HakathonBinhDuong\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Data.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Data.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Model.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\bin\Debug\GNNT.Bot.Server.Model.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.csprojResolveAssemblyReference.cache
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Data\obj\Debug\GNNT.Bot.Server.Data.pdb

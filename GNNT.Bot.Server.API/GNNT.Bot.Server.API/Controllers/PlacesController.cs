@@ -53,7 +53,7 @@ namespace GNNT.Bot.Server.API.Controllers
                         List<Models.MessageText> listMessage = new List<Models.MessageText>();
                         foreach(Answer anwser in item.answerlist)
                         {
-                            listMessage.Add(new Models.MessageText { name = "Bot", message = anwser.Text, photoUrl = photoBot });
+                            listMessage.Add(new Models.MessageText { name = "Bot", text = anwser.Text, photoUrl = photoBot });
                         }
                         bot.BotSendListMessageText(listMessage);
                         return item.answerlist;
@@ -64,8 +64,8 @@ namespace GNNT.Bot.Server.API.Controllers
                 (
                     new List<Models.MessageText>
                     {
-                        new Models.MessageText { name = "bot", photoUrl = photoBot, message = "bot not understand!" },
-                        new Models.MessageText { name = "bot", photoUrl = photoBot, message = "I'm Sorry!" }
+                        new Models.MessageText { name = "bot", photoUrl = photoBot, text = "bot not understand!" },
+                        new Models.MessageText { name = "bot", photoUrl = photoBot, text = "I'm Sorry!" }
                     }
                 );
             return null;
@@ -86,7 +86,7 @@ namespace GNNT.Bot.Server.API.Controllers
                         List<Models.MessageText> listMessage = new List<Models.MessageText>();
                         foreach (Answer anwser in item.answerlist)
                         {
-                            listMessage.Add(new Models.MessageText { name = "Bot", message = anwser.Text, photoUrl = photoBot });
+                            listMessage.Add(new Models.MessageText { name = "Bot", text = anwser.Text, photoUrl = photoBot });
                         }
                         bot.BotSendListMessageText(listMessage);
                         return item.answerlist;
@@ -97,8 +97,8 @@ namespace GNNT.Bot.Server.API.Controllers
                 (
                     new List<Models.MessageText>
                     {
-                        new Models.MessageText { name = "bot", photoUrl = photoBot, message = "bot not understand!" },
-                        new Models.MessageText { name = "bot", photoUrl = photoBot, message = "I'm Sorry!" }
+                        new Models.MessageText { name = "bot", photoUrl = photoBot, text = "bot not understand!" },
+                        new Models.MessageText { name = "bot", photoUrl = photoBot, text = "I'm Sorry!" }
                     }
                 );
             return null;

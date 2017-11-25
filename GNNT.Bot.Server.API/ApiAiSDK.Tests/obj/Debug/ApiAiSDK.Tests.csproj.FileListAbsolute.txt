@@ -22,3 +22,14 @@ C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK.Tests\obj\Debug\ApiAiSDK.Test
 C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK.Tests\obj\Debug\ApiAiSDK.Tests.dll
 C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK.Tests\obj\Debug\ApiAiSDK.Tests.pdb
 C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\bin\Debug\ApiAiSDK.Tests.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\bin\Debug\ApiAiSDK.Tests.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\bin\Debug\ApiAiSDK.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\bin\Debug\nunit.framework.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\bin\Debug\ApiAiSDK.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\bin\Debug\nunit.framework.xml
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\obj\Debug\ApiAiSDK.Tests.csprojResolveAssemblyReference.cache
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\obj\Debug\ApiAiSDK.Tests.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK.Tests\obj\Debug\ApiAiSDK.Tests.pdb

@@ -4,3 +4,8 @@ E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Serv
 E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Model\obj\Debug\GNNT.Bot.Server.Model.csproj.CoreCompileInputs.cache
 E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Model\obj\Debug\GNNT.Bot.Server.Model.dll
 E:\Projects\BinhDuongHackathon\2017\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Model\obj\Debug\GNNT.Bot.Server.Model.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Model\bin\Debug\GNNT.Bot.Server.Model.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Model\bin\Debug\GNNT.Bot.Server.Model.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Model\obj\Debug\GNNT.Bot.Server.Model.csprojResolveAssemblyReference.cache
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Model\obj\Debug\GNNT.Bot.Server.Model.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Model\obj\Debug\GNNT.Bot.Server.Model.pdb

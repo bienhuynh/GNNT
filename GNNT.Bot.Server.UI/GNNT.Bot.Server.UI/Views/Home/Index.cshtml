@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script>
+    $('.txtmassage').click(function () {
+        
+        var idcontact = 'http://localhost:54708/api/places/reply/';
+
+        var post_data = {
+            'value': "Hello"
+        };
+        var output;
+        //Ajax post data to server
+        $.post(idcontact, post_data, function (response) {
+
+            //load json data from server and output message     
+            if (response == 'fail' || response.type == 'error') {
+                output = response;
+            }
+            else {
+                output = response;
+            }
+        }, 'json');
+    });
+</script>
+<form action="http://localhost:54708/api/places/reply/" method="post" id="formchat" name="formchat">
+    <input type="text" value="Enter message" name="txtmessage" id="txtmassage"/>
+    <a  class="btnchat" id="btchat">Send</a>
+</form>

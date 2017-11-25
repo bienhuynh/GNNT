@@ -14,3 +14,10 @@ C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\obj\Debug\ApiAiSDK.csprojReso
 C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\obj\Debug\ApiAiSDK.csproj.CoreCompileInputs.cache
 C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\obj\Debug\ApiAiSDK.dll
 C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\obj\Debug\ApiAiSDK.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\bin\Debug\ApiAiSDK.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\bin\Debug\ApiAiSDK.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\bin\Debug\Newtonsoft.Json.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\bin\Debug\Newtonsoft.Json.xml
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\obj\Debug\ApiAiSDK.csprojResolveAssemblyReference.cache
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\obj\Debug\ApiAiSDK.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\obj\Debug\ApiAiSDK.pdb
