@@ -1,0 +1,16 @@
+E:\Projects\Chatbot\dialogflow-dotnet-client-master\ApiAiSDK\bin\Debug\ApiAiSDK.dll
+E:\Projects\Chatbot\dialogflow-dotnet-client-master\ApiAiSDK\bin\Debug\ApiAiSDK.pdb
+E:\Projects\Chatbot\dialogflow-dotnet-client-master\ApiAiSDK\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Chatbot\dialogflow-dotnet-client-master\ApiAiSDK\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\Chatbot\dialogflow-dotnet-client-master\ApiAiSDK\obj\Debug\ApiAiSDK.csprojResolveAssemblyReference.cache
+E:\Projects\Chatbot\dialogflow-dotnet-client-master\ApiAiSDK\obj\Debug\ApiAiSDK.csproj.CoreCompileInputs.cache
+E:\Projects\Chatbot\dialogflow-dotnet-client-master\ApiAiSDK\obj\Debug\ApiAiSDK.dll
+E:\Projects\Chatbot\dialogflow-dotnet-client-master\ApiAiSDK\obj\Debug\ApiAiSDK.pdb
+C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\bin\Debug\ApiAiSDK.dll
+C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\bin\Debug\ApiAiSDK.pdb
+C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\obj\Debug\ApiAiSDK.csprojResolveAssemblyReference.cache
+C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\obj\Debug\ApiAiSDK.csproj.CoreCompileInputs.cache
+C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\obj\Debug\ApiAiSDK.dll
+C:\Users\HCBBOOK\source\repos\GNNT.Bot.Ui\ApiAiSDK\obj\Debug\ApiAiSDK.pdb
