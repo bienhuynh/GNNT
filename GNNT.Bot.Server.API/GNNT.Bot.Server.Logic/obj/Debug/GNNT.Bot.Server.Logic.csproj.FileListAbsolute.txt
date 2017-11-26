@@ -1,0 +1,5 @@
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Logic\obj\Debug\GNNT.Bot.Server.Logic.csprojResolveAssemblyReference.cache
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Logic\bin\Debug\GNNT.Bot.Server.Logic.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Logic\bin\Debug\GNNT.Bot.Server.Logic.pdb
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Logic\obj\Debug\GNNT.Bot.Server.Logic.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.Logic\obj\Debug\GNNT.Bot.Server.Logic.pdb

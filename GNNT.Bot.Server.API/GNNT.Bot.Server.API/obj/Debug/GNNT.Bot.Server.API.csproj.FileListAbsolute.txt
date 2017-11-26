@@ -289,7 +289,6 @@ D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\System.Web.WebPages.Razor.dll
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\System.Xml.ReaderWriter.dll
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\WebGrease.dll
-D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\netstandard.dll
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\ApiAiSDK.pdb
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\GNNT.Bot.Server.Data.pdb
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\GNNT.Bot.Server.Model.pdb
@@ -328,3 +327,5 @@ D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\Lex.Db.dll
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\Lex.Db.pdb
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\Lex.Db.xml
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\GNNT.Bot.Server.Logic.dll
+D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\GNNT.Bot.Server.API\bin\GNNT.Bot.Server.Logic.pdb

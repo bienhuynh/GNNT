@@ -397,6 +397,10 @@
       <Project>{f38bb8da-e6ba-4f3f-9ef4-2eac5898a911}</Project>
       <Name>GNNT.Bot.Server.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GNNT.Bot.Server.Logic\GNNT.Bot.Server.Logic.csproj">
+      <Project>{76d2a607-918e-4d1a-8a3c-30440191bced}</Project>
+      <Name>GNNT.Bot.Server.Logic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GNNT.Bot.Server.Model\GNNT.Bot.Server.Model.csproj">
       <Project>{e3df4f33-00f3-47fd-bf50-53c21baeaf41}</Project>
       <Name>GNNT.Bot.Server.Model</Name>

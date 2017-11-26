@@ -4,6 +4,7 @@ using Firebase.Database.Query;
 using Firebase.Database.Streaming;
 using GNNT.Bot.Server.API.Models;
 using GNNT.Bot.Server.Data;
+using GNNT.Bot.Server.Logic;
 using GNNT.Bot.Server.Model;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,7 @@ namespace GNNT.Bot.Server.API.Controllers
         private string nameBot = "Bot";
         private IDisposable observable;
         private FirebaseClient firebase;
+        private MyStringCompare compare;
         public AskPlacesController()
         {
             photoBot = "https://media.wired.com/photos/592d06185fd65b767a6f2dfa/master/w_799,c_limit/chat_bot-01-green.jpg";
@@ -71,22 +73,27 @@ namespace GNNT.Bot.Server.API.Controllers
         }
         public void Search(List<MPlace> dataPlaces,BotService.BotWithDatabase bot, string name, string message)
         {
+            compare = new MyStringCompare();
             if (name != nameBot) 
             {
                 bool flag = true;
                 foreach (MPlace item in this.dataPlaces)
                 {
+                    double cp = 0;
                     foreach (Ask i in item.askList)
                     {
-                        if (i.Text == message)
+                        cp = compare.Compare(i.Text, message);
+                        if (cp > 60.0 )
                         {
                             List<Models.MessageText> listMessage = new List<Models.MessageText>();
                             foreach (Answer anwser in item.answerlist)
                             {
                                 listMessage.Add(new Models.MessageText { name = nameBot, text = anwser.Text, photoUrl = photoBot });
+                                break;
                             }
                             bot.BotSendMessageText(listMessage[0]);
                             flag = !flag;
+                            break;
                         }
                     }
                 }

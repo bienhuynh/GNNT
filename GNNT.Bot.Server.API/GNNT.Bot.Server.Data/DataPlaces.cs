@@ -20,8 +20,8 @@ namespace GNNT.Bot.Server.Data
                     askList = new List<Ask>
                     {
                         new Ask { Text = "Chỗ nào đi chơi ở Bình Dương ?" },
-                        new Ask { Text = "Chỗ nào đi chơi ở Bình Dương?" },
-                        new Ask { Text = "Cho nao di choi o binh duong?" },
+                        //new Ask { Text = "Chỗ nào đi chơi ở Bình Dương?" },
+                        //new Ask { Text = "Cho nao di choi o binh duong?" }
                     },
                     answerlist = new List<Answer>
                     {
@@ -44,24 +44,24 @@ namespace GNNT.Bot.Server.Data
                     }
                 }
                 );
+            //dataPlaces.Add
+            //    (
+            //    new MPlace
+            //    {
+            //        askList = new List<Ask>
+            //        {
+            //            new Ask { Text = "hello"}
+            //        },
+            //        answerlist = new List<Answer> { new Answer { Text = "I am Bot"} }
+            //    }
+            //    );
             dataPlaces.Add
                 (
                 new MPlace
                 {
                     askList = new List<Ask>
                     {
-                        new Ask { Text = "hello"}
-                    },
-                    answerlist = new List<Answer> { new Answer { Text = "I am Bot"} }
-                }
-                );
-            dataPlaces.Add
-                (
-                new MPlace
-                {
-                    askList = new List<Ask>
-                    {
-                        new Ask { Text = "iCông viên thành phố mới chỗ nào ?" }
+                        new Ask { Text = "Công viên thành phố mới chỗ nào ?" }
                     },
                     answerlist = new List<Answer>
                     {
@@ -334,9 +334,9 @@ namespace GNNT.Bot.Server.Data
                         askList = new List<Ask>
                         {
                             new Ask { Text = "Biết Công viên nước Thanh Lễ không ?" },
-                            new Ask { Text = "Biết Công viên nước Thanh Lễ không " },
-                            new Ask { Text = "Biết Công viên nước Thanh Lễ không?" },
-                            new Ask { Text = "Biet cong vien nuoc Thanh Le khong ?" }
+                            //new Ask { Text = "Biết Công viên nước Thanh Lễ không " },
+                            //new Ask { Text = "Biết Công viên nước Thanh Lễ không?" },
+                            //new Ask { Text = "Biet cong vien nuoc Thanh Le khong ?" }
                             },
                         answerlist = new List<Answer>
                             {

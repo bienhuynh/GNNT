@@ -18,6 +18,5 @@ D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\bin\Debug\ApiAiSDK.pdb
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\bin\Debug\Newtonsoft.Json.dll
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\bin\Debug\Newtonsoft.Json.xml
-D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\obj\Debug\ApiAiSDK.csprojResolveAssemblyReference.cache
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\obj\Debug\ApiAiSDK.dll
 D:\HackathonBinhDuong\HakathonBinhDuong\Group GNNT\GNNT.Bot.Server.API\ApiAiSDK\obj\Debug\ApiAiSDK.pdb
