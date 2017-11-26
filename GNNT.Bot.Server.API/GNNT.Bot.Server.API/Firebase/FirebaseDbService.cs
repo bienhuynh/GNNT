@@ -53,13 +53,13 @@ namespace GNNT.Bot.Server.API.Firebase
         //    ChildQuery child = client.Child("messages");
 
         //    var observable = child.AsObservable<MessageText>();
-            
-        //    // subscribe to messages comming in, ignoring the ones that are from me
-        //    //IObservable<FirebaseEvent<MessageText>> subscription = observable
-        //    //    .Where(f => !string.IsNullOrEmpty(f.Key)) // you get empty Key when there are no data on the server for specified node
-        //    //                                              //.Where(f => f.Object?.Author != name)
-        //    //                                              .Subscribe(f => Search(data,f.Object.message));
-            
+
+        //    //subscribe to messages comming in, ignoring the ones that are from me
+        //    IObservable< FirebaseEvent<MessageText> > subscription = observable
+        //       .Where(f => !string.IsNullOrEmpty(f.Key)) // you get empty Key when there are no data on the server for specified node
+        //                                                 //.Where(f => f.Object?.Author != name)
+        //                                                 .Subscribe(f => Search(data, f.Object.message));
+
         //    return subscription;
         //}
     }

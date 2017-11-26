@@ -1,5 +1,7 @@
-﻿using Firebase.Database;
+﻿using Firebase;
+using Firebase.Database;
 using Firebase.Database.Query;
+using Firebase.Database.Streaming;
 using GNNT.Bot.Server.API.Models;
 using GNNT.Bot.Server.Data;
 using GNNT.Bot.Server.Model;
@@ -25,6 +27,7 @@ namespace GNNT.Bot.Server.API.Controllers
         {
             photoBot = "https://media.wired.com/photos/592d06185fd65b767a6f2dfa/master/w_799,c_limit/chat_bot-01-green.jpg";
             firebase = new FirebaseClient("https://fifo-88857.firebaseio.com/");
+            
         }
         // GET api/<controller>
         public IEnumerable<string> Get()
@@ -70,6 +73,7 @@ namespace GNNT.Bot.Server.API.Controllers
         {
             if (name != nameBot) 
             {
+                bool flag = true;
                 foreach (MPlace item in this.dataPlaces)
                 {
                     foreach (Ask i in item.askList)
@@ -82,8 +86,20 @@ namespace GNNT.Bot.Server.API.Controllers
                                 listMessage.Add(new Models.MessageText { name = nameBot, text = anwser.Text, photoUrl = photoBot });
                             }
                             bot.BotSendMessageText(listMessage[0]);
+                            flag = !flag;
                         }
                     }
+                }
+                if(flag)
+                {
+                    bot.BotSendListMessageText
+                    (
+                        new List<Models.MessageText>
+                        {
+                                        new Models.MessageText { name = nameBot, photoUrl = photoBot, text = "bot not understand!" },
+                                        new Models.MessageText { name = nameBot, photoUrl = photoBot, text = "I'm Sorry!" }
+                        }
+                    );
                 }
             }
             else
@@ -94,45 +110,17 @@ namespace GNNT.Bot.Server.API.Controllers
         }
         [HttpPost]
         [Route("api/AskPlaces/Reply")]
-        public async void Post()
+        public void Post()
         {
-            string message = "Hello";
+            //string message = "";
             dataPlaces = dataPlacesService.ReturnData();
             string URL = "https://fifo-88857.firebaseio.com/messages/.json";
             BotService.BotWithDatabase bot = new BotService.BotWithDatabase(URL);
-            //bot.BotSendMessageText(new Models.MessageText { name = "bot", text = message, photoUrl = photoBot });
-            //bot.ReadNewRecord();
-            //var firebase = new FirebaseClient("https://fifo-88857.firebaseio.com/");
-            observable = firebase
-              .Child("messages")
-              .AsObservable<MessageText>()
-              .Subscribe(f => message = f.Object.text);
-            //Search(dataPlaces, bot, f.Object.name, f.Object.text)
-            string str = message;
-            foreach (MPlace item in this.dataPlaces)
-            {
-                foreach (Ask i in item.askList)
-                {
-                    if (i.Text == message)
-                    {
-                        List<Models.MessageText> listMessage = new List<Models.MessageText>();
-                        foreach (Answer anwser in item.answerlist)
-                        {
-                            listMessage.Add(new Models.MessageText { name = nameBot, text = anwser.Text, photoUrl = photoBot });
-                        }
-                        bot.BotSendListMessageText(listMessage);
-                        return;
-                    }
-                }
-            }
-            //bot.BotSendListMessageText
-            //    (
-            //        new List<Models.MessageText>
-            //        {
-            //            new Models.MessageText { name = "bot", photoUrl = photoBot, text = "bot not understand!" },
-            //            new Models.MessageText { name = "bot", photoUrl = photoBot, text = "I'm Sorry!" }
-            //        }
-            //    );
+            
+            observable = firebase.Child("messages").OrderByPriority().LimitToLast(1)
+            .AsObservable<MessageText>()
+            .Subscribe(f => Search(dataPlaces, bot, f.Object.name,f.Object.text));
+            Status.Sucess = "Sucessful!";
             //return null;
         }
         // POST api/<controller>

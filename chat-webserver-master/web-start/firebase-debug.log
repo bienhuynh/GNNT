@@ -1,0 +1,64 @@
+[debug] [2017-11-23T06:00:04.676Z] ----------------------------------------------------------------------
+[debug] [2017-11-23T06:00:04.680Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HCBBOOK\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-23T06:00:04.680Z] CLI Version:   3.15.3
+[debug] [2017-11-23T06:00:04.680Z] Platform:      win32
+[debug] [2017-11-23T06:00:04.680Z] Node Version:  v9.2.0
+[debug] [2017-11-23T06:00:04.681Z] Time:          Thu Nov 23 2017 13:00:04 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T06:00:04.681Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-23T06:00:04.697Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-23T06:00:04.697Z] > authorizing via signed-in user
+[debug] [2017-11-23T06:00:04.700Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fifo-88857  
+ Thu Nov 23 2017 13:00:04 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T06:00:05.894Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T06:00:05.896Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fifo-88857/tokens  
+ Thu Nov 23 2017 13:00:05 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T06:00:06.865Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HCBBOOK\friendlychat-web-master\web-start'...
+[info] 
+[debug] [2017-11-23T06:00:06.873Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fifo-88857  
+ Thu Nov 23 2017 13:00:06 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T06:00:08.782Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T06:00:08.783Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1096290407170/clients/_:getWebAppConfig  
+ Thu Nov 23 2017 13:00:08 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T06:00:09.740Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-11-23T10:48:35.614Z] ----------------------------------------------------------------------
+[debug] [2017-11-23T10:48:35.619Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HCBBOOK\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-23T10:48:35.619Z] CLI Version:   3.15.3
+[debug] [2017-11-23T10:48:35.619Z] Platform:      win32
+[debug] [2017-11-23T10:48:35.619Z] Node Version:  v9.2.0
+[debug] [2017-11-23T10:48:35.621Z] Time:          Thu Nov 23 2017 17:48:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T10:48:35.621Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-23T10:48:35.672Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-23T10:48:35.673Z] > authorizing via signed-in user
+[debug] [2017-11-23T10:48:35.679Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-23T10:48:35.679Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/GcMrB6kugrvs6MPf9Aoi5ybs8ZeIFRvJOE9d47vpcusKRTqNeYXfaL6UcQFc1dld',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Nov 23 2017 17:48:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T10:48:36.380Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T10:48:36.422Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fifo-88857  
+ Thu Nov 23 2017 17:48:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T10:48:38.944Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T10:48:38.946Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fifo-88857/tokens  
+ Thu Nov 23 2017 17:48:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T10:48:41.068Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\HCBBOOK\friendlychat-web-master\web-start'...
+[info] 
+[debug] [2017-11-23T10:48:41.091Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fifo-88857  
+ Thu Nov 23 2017 17:48:41 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T10:48:43.170Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-23T10:48:43.171Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1096290407170/clients/_:getWebAppConfig  
+ Thu Nov 23 2017 17:48:43 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-23T10:48:44.681Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
