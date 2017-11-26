@@ -1,0 +1,7 @@
+create data with trained_input.txt in input dir
+python3 corpus.py
+cd Roy_VnTokenizer/scripts/
+./vn_tokenizer.py ./../../output/clear_data.txt word_segment.txt
+python3 replace # change [] -> _
+python3 remove_stopword.py
+python3 convert_2_vect.py
